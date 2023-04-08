@@ -1,3 +1,20 @@
+*{
+  box-sizing: border-box;
+}
 body {
   background-color: aqua;
+}
+
+#gallery {
+  width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+#gallery .photos img{
+  width: 100%;
+  display: none;
+}
+
+#gallery .photos img:first-child{
+  display: block;
 }
