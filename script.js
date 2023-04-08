@@ -1,4 +1,5 @@
 ﻿let button = document.querySelector('button')
 button.onclick = function() {
-  alert("Hello, user!")
+  alert("Hello, user!");
+  console.dir(button)
 }
