@@ -6,7 +6,7 @@ let i_prev = photos.lenght - 1;
 
 button_next.onclick = function() {
   photos[i_next].style.display = 'none';
-  i_prev++;
-  
+  i_next++;
+  photos[i_next].style.display = 'block'
 }
 
