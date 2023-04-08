@@ -1,11 +1,12 @@
 ﻿const button_prev = document.querySelector('.prev');
 const button_next = document.querySelector('.next');
-const photos = document.querySelectorAll('.photos');
-let i = 0;
+const photos = document.querySelectorAll('.photos img');
+let i_next = 0;
+let i_prev = photos.lenght - 1;
 
-button_prev.onclick = function() {
-  photos[i].hidden = true;
-  console.dir(photos[i])
-  // console.log(photos)
+button_next.onclick = function() {
+  photos[i_next].style.display = 'none';
+  i_prev++;
+  
 }
 
