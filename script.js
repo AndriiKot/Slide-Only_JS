@@ -31,3 +31,7 @@ button_prev.onclick = function() {
   photos[i_next].className = showed;
 }
 
+
+
+
+
